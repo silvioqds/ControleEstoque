@@ -1,6 +1,8 @@
 1 - Vá até congif -> database.php e descomente a linha no final do codigo e crie uma base de dados chamada "estoque" no PHPMYADMIN ou Mysql local
 (Necessario saber o usuario e senha do BD)
 
+
+
 2 - Crie as tabelas com os seguintes nomes:
 [pedidos], [clientes] e [produtos]
 
@@ -21,3 +23,6 @@ pedidos:
 id (auto increment | int) 
 id_produto (foreign key)
 id_cliente (foreign key)
+
+
+3- Descomente o trecho em Views -> Pedidos.php: Código que esta no meio do HTML
