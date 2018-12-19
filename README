@@ -26,3 +26,5 @@ id_cliente (foreign key)
 
 
 3- Descomente o trecho em Views -> Pedidos.php: Código que esta no meio do HTML
+
+4 - Vá até application -> Controllers -> Pedidos.php: Descomente o trecho das linhas 15, 16, 17 e 18
